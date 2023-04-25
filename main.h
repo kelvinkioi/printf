@@ -23,5 +23,6 @@ int int_print(va_list arguments);
 int bin_print(va_list arguments);
 int print_binary(unsigned int n);
 int reverse_print(va_list arguments);
+int rot13_print(va_list arguments);
 
 #endif /*MAIN_H*/
