@@ -15,6 +15,8 @@ int (*function_print(const char *specifier))(va_list)
 	type_t types[] = {
 			{"c", char_print},
 			{"s", string_print},
+			{"d", int_print},
+			{"i", int_print},
 			{NULL, NULL},
 	};
 

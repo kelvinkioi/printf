@@ -19,5 +19,6 @@ int _printf(const char *, ...);
 int (*function_print(const char *specifier))(va_list);
 int char_print(va_list arguments);
 int string_print(va_list arguments);
+int int_print(va_list arguments);
 
 #endif /*MAIN_H*/
