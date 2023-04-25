@@ -20,5 +20,7 @@ int (*function_print(const char *specifier))(va_list);
 int char_print(va_list arguments);
 int string_print(va_list arguments);
 int int_print(va_list arguments);
+int bin_print(va_list arguments);
+int print_binary(unsigned int n);
 
 #endif /*MAIN_H*/
