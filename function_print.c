@@ -18,6 +18,7 @@ int (*function_print(const char *specifier))(va_list)
 			{"d", int_print},
 			{"i", int_print},
 			{"b", bin_print},
+			{"r", reverse_print},
 			{NULL, NULL},
 	};
 
