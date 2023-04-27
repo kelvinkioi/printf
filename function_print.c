@@ -18,8 +18,12 @@ int (*function_print(const char *specifier))(va_list)
 			{"d", int_print},
 			{"i", int_print},
 			{"b", bin_print},
+			{"X", HEX_print},
+			{"x", hex_print},
+			{"S", sstring_print},
 			{"r", reverse_print},
 			{"R", rot13_print},
+			
 			{NULL, NULL},
 	};
 

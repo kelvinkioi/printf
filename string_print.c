@@ -3,9 +3,9 @@
 #include <stdarg.h>
 /**
  * string_print - A function that prints out a string
- * @arguments: Va_list containing the string to print out next
+ * @arguments: list of arguments
  *
- * Return: The number of bytes that has been printed
+ * Return: The number of bytes that has been printed or -1 on failure
  */
 int string_print(va_list arguments)
 {
