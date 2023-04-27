@@ -29,5 +29,7 @@ int HEX_print(va_list ptr);
 int hex_p(unsigned int n);
 int hex_print(va_list arguments);
 int sstring_print(va_list arguments);
+int octal_p(unsigned int n);
+int octal_print(va_list arguments);
 
 #endif /*MAIN_H*/
