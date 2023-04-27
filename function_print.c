@@ -21,6 +21,7 @@ int (*function_print(const char *specifier))(va_list)
 			{"X", HEX_print},
 			{"x", hex_print},
 			{"o", octal_print},
+			{"u", unint_print},
 			{"S", sstring_print},
 			{"r", reverse_print},
 			{"R", rot13_print},
